@@ -74,17 +74,18 @@
     "uniqCompNum": 24,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
-    "global_header_custom": "<script async custom-element=\"amp-iframe\" src=\"https://cdn.ampproject.org/v0/amp-iframe-0.1.js\"></script>\n<script async custom-element=\"amp-social-share\" src=\"https://cdn.ampproject.org/v0/amp-social-share-0.1.js\"></script>\n\n    <script async custom-element=\"amp-addthis\"\n    src=\"https://cdn.ampproject.org/v0/amp-addthis-0.1.js\"></script>"
+    "global_header_custom": "<script async custom-element=\"amp-iframe\" src=\"https://cdn.ampproject.org/v0/amp-iframe-0.1.js\"></script>\n<script async custom-element=\"amp-social-share\" src=\"https://cdn.ampproject.org/v0/amp-social-share-0.1.js\"></script>\n\n    <script async custom-element=\"amp-addthis\"\n    src=\"https://cdn.ampproject.org/v0/amp-addthis-0.1.js\"></script>\n\n    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Хиликс - Сайты, магазины и мобильные приложения",
+        "title": "ХИЛИКС: сайты, магазины и мобильные приложения",
         "meta_descr": "Сайты, магазины и мобильные приложения в Портленде и Ванкувере",
-        "header_custom": "<script async custom-element=\"amp-iframe\" src=\"https://cdn.ampproject.org/v0/amp-iframe-0.1.js\"></script>\n",
+        "header_custom": "\n",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/super-1200x1200.png"
       },
       "components": [
         {
@@ -546,7 +547,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Поделиться AddThis</h1>\n        \n<amp-addthis width=\"420\" height=\"92\" data-pub-id=\"ra-61118d78dffc8989\" data-widget-id=\"bfwz\" data-widget-type=\"inline\">\n    \n</amp-addthis>\n        \n  \n</div>",
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">AddThis</h1>\n        \n<amp-addthis width=\"320\" height=\"92\" data-pub-id=\"ra-61118d78dffc8989\" data-widget-id=\"bw3e\" data-widget-type=\"inline\"></amp-addthis>\n<amp-social-share class=\"rounded\" aria-label=\"Share\" type=\"system\" width=\"48\" height=\"48\"></amp-social-share>\n    \n  \n</div>",
           "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 50px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -561,7 +562,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Amp share</h1>\n<amp-social-share class=\"rounded\" aria-label=\"Share\" type=\"system\" data-param-app_id=\"254325784911610\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on Viber\" type=\"viber\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on WhatsApp\" type=\"whatsapp\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on Telegram\" type=\"telegram\" width=\"48\" height=\"48\"></amp-social-share>\n\n <amp-social-share class=\"rounded\" aria-label=\"Share by email \" type=\"email\" width=\"48\" height=\"48\"></amp-social-share>\n\n</div>",
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Пделиться</h1>\n<amp-social-share class=\"rounded\" aria-label=\"Share\" type=\"system\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share via SMS\" type=\"viber\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<!--<amp-social-share class=\"rounded\" aria-label=\"Share on WhatsApp\" type=\"whatsapp\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on Telegram\" type=\"telegram\" width=\"48\" height=\"48\"></amp-social-share>\n-->\n\n <amp-social-share class=\"rounded\" aria-label=\"Share by email \" type=\"email\" width=\"48\" height=\"48\"></amp-social-share>\n\n</div>",
           "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
