@@ -71,7 +71,7 @@
     },
     "pwa-switcher": false,
     "publishChangesOnly": false,
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "global_header_custom": "<script async custom-element=\"amp-iframe\" src=\"https://cdn.ampproject.org/v0/amp-iframe-0.1.js\"></script>\n<script async custom-element=\"amp-social-share\" src=\"https://cdn.ampproject.org/v0/amp-social-share-0.1.js\"></script>\n\n    <script async custom-element=\"amp-addthis\"\n    src=\"https://cdn.ampproject.org/v0/amp-addthis-0.1.js\"></script>"
@@ -546,8 +546,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Поделиться</h1>\n        \n       <amp-addthis width=\"320\" height=\"92\" data-pub-id=\"ra-61118d78dffc8989\" data-widget-id=\"bfwz\" data-widget-type=\"inline\"></amp-addthis>\n        \n  \n</div>",
-          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Поделиться AddThis</h1>\n        \n<amp-addthis width=\"420\" height=\"92\" data-pub-id=\"ra-61118d78dffc8989\" data-widget-id=\"bfwz\" data-widget-type=\"inline\">\n    \n</amp-addthis>\n        \n  \n</div>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 50px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
@@ -555,6 +555,21 @@
           "_name": "pro.custom-html",
           "_sourceTheme": "mobirise-amp",
           "_anchor": "addthis-amp",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <h1 class=\"display-1\">Amp share</h1>\n<amp-social-share class=\"rounded\" aria-label=\"Share\" type=\"system\" data-param-app_id=\"254325784911610\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on Viber\" type=\"viber\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on WhatsApp\" type=\"whatsapp\" width=\"48\" height=\"48\"></amp-social-share>\n    \n<amp-social-share class=\"rounded\" aria-label=\"Share on Telegram\" type=\"telegram\" width=\"48\" height=\"48\"></amp-social-share>\n\n <amp-social-share class=\"rounded\" aria-label=\"Share by email \" type=\"email\" width=\"48\" height=\"48\"></amp-social-share>\n\n</div>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise-amp",
+          "_anchor": "social_share_amp",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
         },
