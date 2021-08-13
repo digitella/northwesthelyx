@@ -1,0 +1,15 @@
+<div>
+
+<amp-social-share class="rounded" aria-label="Share" type="system" width="48" height="48"></amp-social-share>
+    
+<amp-social-share class="rounded" aria-label="Share via SMS" type="viber" width="48" height="48"></amp-social-share>
+    
+<amp-social-share class="rounded" aria-label="Share on WhatsApp" type="whatsapp" width="48" height="48"></amp-social-share>
+    
+<amp-social-share class="rounded" aria-label="Share on Telegram" type="telegram" width="48" height="48"></amp-social-share>
+
+<amp-social-share class="rounded" aria-label="Share by email " type="email" width="48" height="48"></amp-social-share>
+
+<amp-social-share class="rounded" aria-label="Share" type="system" width="179" height="179"></amp-social-share>
+
+</div>

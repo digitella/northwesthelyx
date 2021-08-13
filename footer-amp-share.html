@@ -1,0 +1,86 @@
+<section class="footer2" group="Footers" plugins="amp-main" global="" once="footer">
+
+    <mbr-parameters>
+    <!-- Block parameters controls (Blue "Gear" panel) -->
+        <header>Size</header>
+        <input type="range" inline="" title="Top" name="paddingTop" min="0" max="10" step="1" value="5">
+        <input type="range" inline="" title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="5">
+        <header>Show/Hide</header>
+        <input type="checkbox" title="Logo" name="showLogo" checked="">
+        <input type="range" title="Logo Width" name="logoWidth" min="1" max="10" step="1" value="10" condition="showLogo">
+        <select title="Columns" name="columnsCount">
+            <option value="1" selected="">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <input type="checkbox" title="Title" name="showTitle" checked="">
+        <input type="range" inline="" title="Column 1" name="columnItems1" min="1" max="6" value="3">
+        <input type="range" inline="" title="Column 2" name="columnItems2" min="1" max="6" value="3" condition="columnsCount > 1">
+        <input type="range" inline="" title="Column 3" name="columnItems3" min="1" max="6" value="3" condition="columnsCount > 2">
+        <header>Background</header>
+        <fieldset type="background" name="bg">
+            <input type="image" title="Image" value="../_images/background3.jpg" selected="">
+            <input type="color" title="Color" value="#20202a">
+        </fieldset>
+    <!-- End block parameters -->
+    </mbr-parameters>
+
+    <div class="container">
+        <div class="mbr-row mbr-jc-c">
+            <div class="mbr-col-sm-12 mbr-col-lg-3" mbr-class="{'mbr-col-md-6 mbr-col-lg-3': columnsCount == 3, 'mbr-col-md-4': columnsCount <= 2}" mbr-if="showLogo">
+                <div class="image-block mbr-flex mbr-jc-c">
+                    
+<amp-social-share class="rounded" aria-label="Share" type="system" width="179" height="179"></amp-social-share>
+                <amp-img src="file:///Users/q/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2021-08-06_154712/assets/images/x-circa-320x320.png" layout="responsive" width="179" height="179" alt="интернет услуги в Портленде" class="mobirise-loader">
+                    <div placeholder="" class="placeholder"></div>
+                    <a href="https://northwest.helyx.ml"><img class="mbr-temp" src="file:///Users/q/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2021-08-06_154712/assets/images/x-circa-320x320.png" alt="интернет услуги в Портленде" data-aspectratio="1"></a>
+                </amp-img>
+                    </div>
+            </div>
+
+            <div class="items-col mbr-col-sm-12 align-right" mbr-class="{'mbr-col-md-6 mbr-col-lg-3': columnsCount == 3, 'mbr-col-md-4': columnsCount <= 2}">
+                <h3 class="mbr-fonts-style group-title mbr-white mbr-bold mbr-pb-2" mbr-theme-style="display-5" mbr-if="showTitle" data-app-selector=".group-title mbr-white">Инфо</h3>
+                <div class="items" mbr-list="" mbr-list-grow="columnItems1">
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item"><a href="privacy-and-terms.html#top" class="text-danger">Конфиденциальность</a></p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item"><a href="privacy-and-terms.html#top" class="text-danger">Условия</a></p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item"><a href="https://app.suitedash.com/frm/RqyULm5B32puNAB" class="text-danger text-primary" target="_blank">Заказать услуги</a></p>
+                </div>
+            </div>
+
+            <div class="items-col mbr-col-sm-12 mbr-col-lg-3 align-right" mbr-class="{'mbr-col-md-6 mbr-col-lg-3': columnsCount == 3, 'mbr-col-md-4': columnsCount <= 2}" mbr-if="columnsCount > 1">
+                <h3 class="mbr-fonts-style group-title mbr-white mbr-bold mbr-pb-2" mbr-theme-style="display-5" mbr-if="showTitle" data-app-selector=".group-title mbr-white">
+                    
+                </h3>
+                <div class="items" mbr-list="" mbr-list-grow="columnItems2">
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+                 
+                    </p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+               
+                    </p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+                   
+                    </p>
+                </div>
+            </div>
+
+            <div class="items-col mbr-col-sm-12 mbr-col-lg-3 align-right" mbr-class="{'mbr-col-md-6 mbr-col-lg-3': columnsCount == 3}" mbr-if="columnsCount > 2">
+                <h3 class="mbr-fonts-style group-title mbr-white mbr-bold mbr-pb-2" mbr-theme-style="display-5" mbr-if="showTitle" data-app-selector=".group-title mbr-white">
+                 
+                </h3>
+                <div class="items" mbr-list="" mbr-list-grow="columnItems3">
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+                    
+                    </p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+                     
+                    </p>
+                    <p class="item mbr-semibold mbr-fonts-style mbr-py-1" mbr-theme-style="display-4" data-app-selector=".item">
+                        
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
