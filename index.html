@@ -38,6 +38,22 @@
 
   <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
   
+  <!-- Chatra {literal} -->
+<script>
+    (function(d, w, c) {
+        w.ChatraID = 'vgi4dEzB6jPjS9JSf';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+  
+  
 </head>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-sFlNkngwS0" layout="nodisplay" side="right">
         <div class="builder-sidebar" id="builder-sidebar">
