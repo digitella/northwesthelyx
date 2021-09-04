@@ -84,7 +84,8 @@
         "meta_descr": "Сайты, магазины и мобильные приложения",
         "header_custom": "\n",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/super-no-text-1200x1200.png"
       },
       "components": [
         {
